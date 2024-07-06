@@ -105,6 +105,67 @@ body {
         margin: 30px auto;
         max-width: 80%;
     }
+
+
+
+}
+@media (max-width: 360px) {
+    .navbar {
+        background-image: url("navbarph(1).jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 227px;
+        width: 1075;
+        overflow: visible;
+        position: relative;
+        margin: 0 auto; /* Center the navbar */
+        padding: 0; /* Remove any padding */
+    }
+
+    .navbar a {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        padding: 8px 12px; /* Adjust padding for smaller buttons */
+    }
+
+    .dropdown-content {
+        min-width: auto; /* Allow content to adjust width */
+        border: #000;
+    }
+
+    .dropdown-content a {
+        font-size: 18px; /* Reduce font size for dropdown items */
+    }
+
+    #mainimg video {
+        content: url("finmainvidph(1).mp4");
+        width: 100%;
+        height: auto;
+        margin: 0 auto; /* Center the video horizontally */
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    #mainimg video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #mainimg {
+        margin: 50px auto;
+        max-width: 80%;
+    }
+
+    #about {
+        font-size: 28px;
+    }
+
+    #about img {
+        margin: 30px auto;
+        max-width: 80%;
+    }
 }
 @media (max-width: 1092px) {
     .navbar {
